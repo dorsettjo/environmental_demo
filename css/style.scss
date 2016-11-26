@@ -1,0 +1,81 @@
+
+h1, h2, h3, h4, h5, h6, p, body {
+ margin: 0;
+}
+header {
+ height: 500px;
+ overflow: hidden;
+ position: relative;
+ color: white;
+}
+header h1 p {
+  text-align: center;
+}
+
+video {
+ min-width: 100%;
+ min-height: 100%;
+ position: absolute;
+ z-index: -100;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+.our-pledge {
+  background-color: #305291;
+}
+.the-issues {
+  background-color: white;
+}
+
+body article {
+  width: 20.6%;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  margin: 30px 1%;
+  padding: 1%;
+  padding-top: 30px;
+  height: 300px;
+}
+
+body article p {
+  font-family: sans-serif;
+  color: #666666;
+
+}
+.fa {
+    font-size: 30px;
+    border: 1px solid #305291;
+    color: #305291;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .fa-power-off:before {
+    content: "\f011";
+}
+
+
+.icon-container {
+  background-color: #f2f2f2;
+
+}
+.main-body {
+  background-color: #f2f2f2;
+}
+footer p {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #305291;
+}
