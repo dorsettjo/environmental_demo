@@ -38,10 +38,13 @@ p {
     background-color: #305291;
     height: 300px;
 }
-.the-issues {
-  background-color: white;
+.issues {
+  color:$background;
 }
-
+.issues p {
+  color: $grey;
+  line-height: 2em;
+}
 body article {
   width: 20.6%;
   display: inline-block;
