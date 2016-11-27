@@ -11,13 +11,11 @@ header {
   text-align: center;
       }
 }
-
 h1, h2, h3,  {
     color: #305291;
     text-transform: uppercase;
     text-align: center;
 }
-
 header ul li a {
   display: inline;
   color: #305291;
@@ -31,7 +29,42 @@ video {
  z-index: -100;
 }
 
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}
+div {
+    display: block;
+}
 
+.mainnav {
+    float: right;
+}
+.mainnav li {
+    float: left;
+    margin: 10px;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown .dropnav {
+    position: absolute;
+    display: none;
+}
+.mainnav li a {
+    color: #305291;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: white;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+}
 .pledges {
     padding-left: 15%;
     padding-right: 15%;
