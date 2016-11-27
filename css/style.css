@@ -1,14 +1,31 @@
-h1, h2, h3, h4, h5, h6, p, body {
-  margin: 0; }
-
 header {
   height: 500px;
   overflow: hidden;
   position: relative;
   color: white; }
 
-header h1 p {
-  text-align: center; }
+h1, h3 {
+  color: #305291;
+}
+  h2 {
+    color: white;
+  }
+
+  h1, h2, h3 {
+        text-transform: uppercase;
+  }
+
+
+header h1, h2, p {
+  text-align: center;
+  display: block;
+}
+
+header ul li a {
+  display: inline;
+  color: #305291;
+  float: right;
+  margin-right: 5px; }
 
 video {
   min-width: 100%;
@@ -18,50 +35,98 @@ video {
 
 p {
   text-align: center;
-  color: white; }
+  color: purple; }
 
 .our-pledge {
-  background-color: #305291; }
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    background-color: #305291;
+    height: 300px;
+  }
+.our-pledge h2 .our-pledge p {
+    color: white;
+    text-align: center;
+}
 
-.the-issues {
-  background-color: white; }
 
-body article {
+.issues, h2 {
+  background-color: white;
+  color: #305291;
+  text-transform: uppercase;
+ }
+
+article {
+    float: right;
+    display: inline;
+    /*p {
+    font-family: sans-serif;
+    color: #666666;
+   }*/
+ }
+ .mainbody p {
+   p {
+    color: #666666;
+    line-height: 2em;
+}
+
+ }
+ .mainbody article {
+    width: 20.6%;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    margin: 30px 1%;
+    padding: 1%;
+    padding-top: 30px;
+    height: 300px;
+}
+/*body {
+  display: block;
+}*/
+
+  .mainbody {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+  /*body icon-container issues-explained article {
   width: 20.6%;
   display: inline-block;
   background-color: white;
   vertical-align: top;
-  margin: 30px 1%;
+  margin: 3% 1%;
   padding: 1%;
   padding-top: 30px;
-  height: 300px; }
+  height: 300px; }*/
 
-body article p {
+/*body article p {
   font-family: sans-serif;
-  color: #666666; }
+  color: #666666; }*/
 
-.fa {
-  font-size: 30px;
+/*.fa {
   border: 1px solid #305291;
   color: #305291;
-  padding: 10px;
-  border-radius: 50%;
-  width: 30px; }
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased; }
-
-.fa-power-off:before {
-  content: "\f011"; }
+  padding: 1px;
+  border-radius: 100%;
+  width: 3px; }*/
+  .fa {
+    font-size: 30px;
+    border: 1px solid #305291;
+    color: #305291;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+}
 
 .icon-container {
   background-color: #f2f2f2; }
 
-.main-body {
+.mainbody {
   background-color: #f2f2f2; }
 
 footer p {
@@ -69,5 +134,9 @@ footer p {
   width: 33%;
   text-align: center;
   color: #305291; }
+
+footer {
+  border-top: 1px solid gray;
+  padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
